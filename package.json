@@ -1,0 +1,12 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned",
+  "main": "index.js",
+  "author": "hungthai1401<hungthai1401.it@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.23.0",
+    "prompts": "^2.4.1"
+  }
+}
