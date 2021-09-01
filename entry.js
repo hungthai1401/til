@@ -59,10 +59,14 @@ module.exports = {
   compile: () => {
     fs.readdir(ENTRIES_DIR, (_, files) => {
       let entries = [];
-      files.forEach(path => {
-        const [, date, fileName] = path.match(/(^\d{4}_\d{1,2}_\d{1,2})_(\w*)[.md$]/);
-        entries = [ ...entries, { date: date.replaceAll('_', '-'), fileName: titleCase(fileName.replaceAll('_', ' ')), path } ];
-      });
+
+      if (files) {
+        files.forEach(path => {
+          const [, date, fileName] = path.match(/(^\d{4}_\d{1,2}_\d{1,2})_(\w*)[.md$]/);
+          entries = [ ...entries, { date: date.replaceAll('_', '-'), fileName: titleCase(fileName.replaceAll('_', ' ')), path } ];
+        });
+      }
+
       summary(entries);
     });
   }
