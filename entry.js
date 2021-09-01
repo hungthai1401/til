@@ -3,6 +3,7 @@ const fs = require('fs');
 var format = require('date-fns/format');
 const isValid = require('date-fns/isValid');
 const parseISO = require('date-fns/parseISO');
+const chalk = require('chalk');
 
 const ENTRIES_DIR = 'entries';
 
@@ -13,6 +14,7 @@ const createEntriesDirectory = () => fs.mkdir(ENTRIES_DIR, { recursive: true }, 
 const createNewEntryFile = ({ date, title }) => {
   const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_')}.md`;
   fs.writeFile(`${ENTRIES_DIR}/${fileName}`, '', 'utf8', _ => {});
+  console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
 
 const titleCase = str => str.charAt(0).toUpperCase() + str.slice(1);
@@ -30,6 +32,7 @@ ${entries.map(({ date, fileName, path }) => `- [${fileName}](./${ENTRIES_DIR}/${
 - \`./index.js compile\` Compile summary & rebuild README
 `;
   fs.writeFile('README.md', content, 'utf8', _ => {});
+  console.log(chalk.black.bgCyan('New summary file has been compile!!!'));
 }
 
 module.exports = {
