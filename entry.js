@@ -12,7 +12,7 @@ const isValidDateFormat = value => value.match(/^\d{4}(-)\d{1,2}\1\d{1,2}$/g);
 const createEntriesDirectory = () => fs.mkdir(ENTRIES_DIR, { recursive: true }, _ => {});
 
 const createNewEntryFile = ({ date, title }) => {
-  const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_')}.md`;
+  const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_').replace('+', 'plus')}.md`;
   fs.writeFile(`${ENTRIES_DIR}/${fileName}`, '', 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
