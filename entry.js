@@ -4,6 +4,7 @@ var format = require('date-fns/format');
 const isValid = require('date-fns/isValid');
 const parseISO = require('date-fns/parseISO');
 const chalk = require('chalk');
+const fm = require('front-matter');
 
 const ENTRIES_DIR = 'entries';
 
@@ -11,20 +12,27 @@ const isValidDateFormat = value => value.match(/^\d{4}(-)\d{1,2}\1\d{1,2}$/g);
 
 const createEntriesDirectory = () => fs.mkdir(ENTRIES_DIR, { recursive: true }, _ => {});
 
+const newEntryContent = ({ date, title }) => {
+  return `
+---
+title: ${title}
+date: ${date}
+---
+`
+};
+
 const createNewEntryFile = ({ date, title }) => {
   const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_').replace('+', 'plus')}.md`;
-  fs.writeFile(`${ENTRIES_DIR}/${fileName}`, '', 'utf8', _ => {});
+  fs.writeFile(`${ENTRIES_DIR}/${fileName}`, newEntryContent({ date, title }), 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
-
-const titleCase = str => str.charAt(0).toUpperCase() + str.slice(1);
 
 const summary = (entries) => {
   const content = `
 # Today I learned
 Total : ${entries.length} TILs
 ## All Entries
-${entries.map(({ date, fileName, path }) => `- [${fileName}](./${ENTRIES_DIR}/${path}) - ${date}`).join("\r\n")}
+${entries.map(({ date, title, path }) => `- [${title}](./${ENTRIES_DIR}/${path}) - ${date}`).join("\r\n")}
 ## CLI Usage
 - \`yarn install\`
 - \`chmod +x ./index.js\`
@@ -60,17 +68,13 @@ module.exports = {
   },
 
   compile: () => {
-    fs.readdir(ENTRIES_DIR, (_, files) => {
-      let entries = [];
-
-      if (files) {
-        files.forEach(path => {
-          const [, date, fileName] = path.match(/(^\d{4}_\d{1,2}_\d{1,2})_(\w*)[.md$]/);
-          entries = [ ...entries, { date: date.replaceAll('_', '-'), fileName: titleCase(fileName.replaceAll('_', ' ')), path } ];
-        });
-      }
-
-      summary(entries);
+    let entries = [];
+    const files = fs.readdirSync(ENTRIES_DIR);
+    files.forEach(path => {
+      const content = fs.readFileSync(`${ENTRIES_DIR}/${path}`, 'utf8');
+      const { attributes: { title, date } } = fm(content);
+      entries = [ ...entries, { date: format(date, 'yyyy-MM-dd'), title, path } ];
     });
+    summary(entries);
   }
 }
