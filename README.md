@@ -9,6 +9,9 @@ Total : 5 TILs
 - [Build CLI with NodeJs](./entries/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
 ## CLI Usage
 - `yarn install`
-- `chmod +x ./index.js`
-- `./index.js new` Create new entry
-- `./index.js compile` Compile summary & rebuild README
+- `yarn link`
+- `til`
+- `til --action="new"` Create new entry
+- `til --action="compile"` Compile summary & rebuild README
+## Screenshot:
+![CLI](./screenshots/cli.png)
