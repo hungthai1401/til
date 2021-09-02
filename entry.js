@@ -1,6 +1,6 @@
 const prompts = require('prompts');
 const fs = require('fs');
-var format = require('date-fns/format');
+const format = require('date-fns/format');
 const isValid = require('date-fns/isValid');
 const parseISO = require('date-fns/parseISO');
 const chalk = require('chalk');

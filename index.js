@@ -1,10 +1,12 @@
 #!/usr/bin/env node
+const clear = require('clear');
 const figlet = require('figlet');
 const chalk = require('chalk');
 const prompts = require('prompts');
 const entry = require('./entry');
 prompts.override(require('yargs').argv);
 
+clear();
 console.log(
   chalk.cyan(
     figlet.textSync('Today I Learned', { horizontalLayout: 'full' })
