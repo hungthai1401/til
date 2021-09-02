@@ -1,3 +1,8 @@
+---
+title: Use index or force index in Laravel
+date: 2020-06-04
+---
+
 When you want to use or force index with Query Builder in Laravel, you can do it:
 
 ```php

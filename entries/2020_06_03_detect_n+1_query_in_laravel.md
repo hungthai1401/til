@@ -1,3 +1,8 @@
+---
+title: Detect N+1 query in Laravel
+date: 2020-06-03
+---
+
 To detect N + 1 query, override `getRelationshipFromMethod` method in Eloquent
 
 ```php

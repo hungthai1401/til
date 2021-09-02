@@ -1,3 +1,8 @@
+---
+title: Check the relationship has been loaded in Laravel
+date: 2020-06-08
+---
+
 To check the relationship has been loaded in Eloquent, use `relationLoaded()`:
 
 ```php

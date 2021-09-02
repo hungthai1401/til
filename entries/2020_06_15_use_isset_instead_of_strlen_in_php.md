@@ -1,3 +1,8 @@
+---
+title: Use isset() instead of strlen() in PHP
+date: 2020-06-15
+---
+
 `isset()` is faster than using `strlen()` because calling a function is more expensive than using a language construct.
 
 Test to show the speed http://codepad.org/ztYF0bE3
