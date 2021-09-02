@@ -35,9 +35,12 @@ Total : ${entries.length} TILs
 ${entries.map(({ date, title, path }) => `- [${title}](./${ENTRIES_DIR}/${path}) - ${date}`).join("\r\n")}
 ## CLI Usage
 - \`yarn install\`
-- \`chmod +x ./index.js\`
-- \`./index.js new\` Create new entry
-- \`./index.js compile\` Compile summary & rebuild README
+- \`yarn link\`
+- \`til\`
+- \`til --action="new"\` Create new entry
+- \`til --action="compile"\` Compile summary & rebuild README
+## Screenshot:
+![CLI](./screenshots/cli.png)
 `;
   fs.writeFile('README.md', content, 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New summary file has been compile!!!'));
