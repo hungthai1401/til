@@ -10,7 +10,8 @@
     "date-fns": "^2.23.0",
     "figlet": "^1.5.2",
     "front-matter": "^4.0.2",
-    "prompts": "^2.4.1"
+    "prompts": "^2.4.1",
+    "yargs": "^17.1.1"
   },
   "bin": {
     "til": "./index.js"
