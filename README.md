@@ -7,6 +7,7 @@ This is inspired by https://github.com/narze/til
 ### Javascript
 
 - [Build CLI with NodeJs](./entries/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
+- [Get all directories within directory with NodeJs](./entries/2021_09_03_get_all_directories_within_directory_with_nodejs.md) - 2021-09-03
 
 ### PHP
 
