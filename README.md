@@ -4,6 +4,10 @@ This is inspired by https://github.com/narze/til
 
 ## All Entries
 
+### Git
+
+- [Use Git commit-msg hook to validate commit message](./entries/2021_09_03_use_git_commit-msg_hook_to_validate_commit_message.md) - 2021-09-03
+
 ### Javascript
 
 - [Build CLI with NodeJs](./entries/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
