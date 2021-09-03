@@ -14,9 +14,10 @@ const createEntriesDirectory = () => fs.mkdir(ENTRIES_DIR, { recursive: true }, 
 
 const createCategoryDirectory = (category) => fs.mkdir(`${ENTRIES_DIR}/${category}`, { recursive: true }, _ => {});
 
-const newEntryContent = ({ date, title }) => {
+const newEntryContent = ({ category, date, title }) => {
   return `---
 title: ${title}
+category: ${category}
 date: ${date}
 ---
 `
@@ -24,7 +25,7 @@ date: ${date}
 
 const createNewEntryFile = ({ category, date, title }) => {
   const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_').replace('+', 'plus')}.md`;
-  fs.writeFile(`${ENTRIES_DIR}/${category}/${fileName}`, newEntryContent({ date, title }), 'utf8', _ => {});
+  fs.writeFile(`${ENTRIES_DIR}/${category}/${fileName}`, newEntryContent({ category, date, title }), 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
 
