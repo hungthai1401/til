@@ -1,5 +1,6 @@
 ---
 title: Build CLI with NodeJs
+category: Javascript
 date: 2021-09-02
 ---
 

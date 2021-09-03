@@ -1,5 +1,6 @@
 ---
 title: Use isset() instead of strlen() in PHP
+category: PHP
 date: 2020-06-15
 ---
 

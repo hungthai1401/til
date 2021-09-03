@@ -1,5 +1,6 @@
 ---
 title: Use index or force index in Laravel
+category: PHP
 date: 2020-06-04
 ---
 

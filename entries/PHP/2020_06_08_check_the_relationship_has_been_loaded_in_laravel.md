@@ -1,5 +1,6 @@
 ---
 title: Check the relationship has been loaded in Laravel
+category: PHP
 date: 2020-06-08
 ---
 

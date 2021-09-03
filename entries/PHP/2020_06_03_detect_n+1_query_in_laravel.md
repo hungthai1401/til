@@ -1,5 +1,6 @@
 ---
 title: Detect N+1 query in Laravel
+category: PHP
 date: 2020-06-03
 ---
 
