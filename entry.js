@@ -31,8 +31,6 @@ const createNewEntryFile = ({ category, date, title }) => {
 const summary = (entries) => {
   const content = `![CLI](./screenshots/cli.png)
 
-_Things I've learned and/or things I want to remember. Notes, links, advice, example code, etc._
-
 This is inspired by https://github.com/narze/til
 
 ## All Entries
