@@ -35,7 +35,7 @@ const summary = (entries) => {
 This is inspired by https://github.com/narze/til
 
 ## All Entries
-${Object.keys(entries).map(category => `\r\n### ${category}\r\n\r\n${entries[category].map(({ date, title, path }) => `- [${title}](./${ENTRIES_DIR}/${path}) - ${date}`).join("\r\n")}`).join("\r\n")}
+${Object.keys(entries).map(category => `\r\n### ${category}\r\n\r\n${entries[category].map(({ date, title, path }) => `- [${title}](./${ENTRIES_DIR}/${category}/${path}) - ${date}`).join("\r\n")}`).join("\r\n")}
 
 ## CLI Usage
 
