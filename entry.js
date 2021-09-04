@@ -1,14 +1,10 @@
 const prompts = require('prompts');
 const fs = require('fs');
-const format = require('date-fns/format');
-const isValid = require('date-fns/isValid');
-const parseISO = require('date-fns/parseISO');
+const { isAfter, format } = require('date-fns');
 const chalk = require('chalk');
 const fm = require('front-matter');
 
 const ENTRIES_DIR = 'entries';
-
-const isValidDateFormat = value => value.match(/^\d{4}(-)\d{1,2}\1\d{1,2}$/g);
 
 const createEntriesDirectory = () => fs.mkdir(ENTRIES_DIR, { recursive: true }, _ => {});
 
@@ -24,7 +20,7 @@ date: ${date}
 };
 
 const createNewEntryFile = ({ category, date, title }) => {
-  const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_').replace('+', 'plus')}.md`;
+  const fileName = `${date}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_')}.md`;
   fs.writeFile(`${ENTRIES_DIR}/${category}/${fileName}`, newEntryContent({ category, date, title }), 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
@@ -54,7 +50,7 @@ module.exports = {
     const categories = fs
       .readdirSync(ENTRIES_DIR, { withFileTypes: true })
       .filter(dir => dir.isDirectory())
-      .map(({ name }) => ({ title: name, value: name }))
+      .map(({ name }) => ({ title: name, value: name }));
     const questions = [
       {
         type: 'text',
@@ -77,11 +73,12 @@ module.exports = {
         },
       },
       {
-        type: 'text',
+        type: 'date',
         name: 'date',
         message: 'Date:',
-        initial: format(new Date(), 'yyyy-MM-dd'),
-        validate: value => ! (isValidDateFormat(value) && isValid(parseISO(value))) ? 'Date wrong' : true,
+        initial: new Date(),
+        mask: 'YYYY-MM-DD',
+        validate: date => isAfter(date, Date.now()) ? 'Date not in the future' : true,
       },
     ];
     (async () => {
@@ -92,7 +89,7 @@ module.exports = {
       }
       createEntriesDirectory();
       createCategoryDirectory(category);
-      createNewEntryFile({ category, title, date });
+      createNewEntryFile({ category, title, date: format(date, 'yyyy_MM_dd') });
     })();
   },
 
