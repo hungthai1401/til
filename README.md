@@ -4,6 +4,10 @@ This is inspired by https://github.com/narze/til
 
 ## All Entries
 
+### Elasticsearch
+
+- [Multi search API](./entries/Elasticsearch/2021_09_04_multi_search_api.md) - 2021-09-04
+
 ### Git
 
 - [Use Git commit-msg hook to validate commit message](./entries/Git/2021_09_03_use_git_commit-msg_hook_to_validate_commit_message.md) - 2021-09-03
