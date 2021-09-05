@@ -13,6 +13,10 @@ This is inspired by https://github.com/narze/til
 - [Use Git commit-msg hook to validate commit message](./entries/Git/2021_09_03_use_git_commit-msg_hook_to_validate_commit_message.md) - 2021-09-03
 - [Multi SSH Keys settings for different github accounts](./entries/Git/2021_09_04_multi_ssh_keys_settings_for_different_github_accounts.md) - 2021-09-04
 
+### Go
+
+- [Format a date or time in Golang](./entries/Go/2021_09_05_format_date_or_time_in_golang.md) - 2021-09-05
+
 ### Javascript
 
 - [Build CLI with NodeJs](./entries/Javascript/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
