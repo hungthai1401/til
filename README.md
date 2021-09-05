@@ -29,6 +29,7 @@ This is inspired by https://github.com/narze/til
 - [Check the relationship has been loaded in Laravel](./entries/PHP/2020_06_08_check_the_relationship_has_been_loaded_in_laravel.md) - 2020-06-08
 - [Use isset() instead of strlen() in PHP](./entries/PHP/2020_06_15_use_isset_instead_of_strlen_in_php.md) - 2020-06-15
 - [Batch processing of requests with Elasticsearch PHP client](./entries/PHP/2021_09_04_batch_processing_of_requests_with_elasticsearch_php_client.md) - 2021-09-04
+- [Laravel artisan everywhere](./entries/PHP/2021_09_05_laravel_artisan_everywhere.md) - 2021-09-05
 
 ## CLI Usage
 
