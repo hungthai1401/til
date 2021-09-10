@@ -9,7 +9,9 @@ prompts.override(require('yargs').argv);
 clear();
 console.log(
   chalk.cyan(
-    figlet.textSync('Today I Learned', { horizontalLayout: 'full' })
+    figlet.textSync('Today I Learned', {
+      horizontalLayout: 'universal smushing' ,
+    })
   )
 );
 (async () => {
