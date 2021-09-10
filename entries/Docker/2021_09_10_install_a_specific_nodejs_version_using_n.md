@@ -9,7 +9,7 @@ ENV NODE_VERSION 6.9.1
 
 RUN curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n \
     && bash n ${NODE_VERSION} \
-    && npm --version
+    && node --version
 ```
 
 Refs:
