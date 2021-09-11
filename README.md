@@ -39,6 +39,7 @@ This is inspired by https://github.com/narze/til
 - [Use isset() instead of strlen() in PHP](./entries/PHP/2020_06_15_use_isset_instead_of_strlen_in_php.md) - 2020-06-15
 - [Batch processing of requests with Elasticsearch PHP client](./entries/PHP/2021_09_04_batch_processing_of_requests_with_elasticsearch_php_client.md) - 2021-09-04
 - [Laravel artisan everywhere](./entries/PHP/2021_09_05_laravel_artisan_everywhere.md) - 2021-09-05
+- [Destroy all sessions in Laravel](./entries/PHP/2021_09_11_destroy_all_sessions_in_laravel.md) - 2021-09-11
 
 ## CLI Usage
 
