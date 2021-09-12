@@ -40,6 +40,7 @@ This is inspired by https://github.com/narze/til
 - [Batch processing of requests with Elasticsearch PHP client](./entries/PHP/2021_09_04_batch_processing_of_requests_with_elasticsearch_php_client.md) - 2021-09-04
 - [Laravel artisan everywhere](./entries/PHP/2021_09_05_laravel_artisan_everywhere.md) - 2021-09-05
 - [Destroy all sessions in Laravel](./entries/PHP/2021_09_11_destroy_all_sessions_in_laravel.md) - 2021-09-11
+- [Get the language code from a country code in PHP](./entries/PHP/2021_09_12_get_the_language_code_from_a_country_code_in_php.md) - 2021-09-12
 
 ## CLI Usage
 
