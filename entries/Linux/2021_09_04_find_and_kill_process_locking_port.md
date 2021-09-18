@@ -1,6 +1,6 @@
 ---
 title: Find and kill process locking port
-category: Mac
+category: Linux
 date: 2021-09-04
 ---
 
