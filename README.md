@@ -28,9 +28,10 @@ This is inspired by https://github.com/narze/til
 - [Build CLI with NodeJs](./entries/Javascript/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
 - [Get all directories within directory with NodeJs](./entries/Javascript/2021_09_03_get_all_directories_within_directory_with_nodejs.md) - 2021-09-03
 
-### Mac
+### Linux
 
-- [Find and kill process locking port](./entries/Mac/2021_09_04_find_and_kill_process_locking_port.md) - 2021-09-04
+- [Find and kill process locking port](./entries/Linux/2021_09_04_find_and_kill_process_locking_port.md) - 2021-09-04
+- [Count all files inside a folder, its subfolders and all](./entries/Linux/2021_09_18_count_all_files_inside_a_folder,_its_subfolders_and_all.md) - 2021-09-18
 
 ### PHP
 
