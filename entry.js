@@ -20,7 +20,7 @@ date: ${date}
 };
 
 const createNewEntryFile = ({ category, date, title }) => {
-  const fileName = `${date.replaceAll('-', '_')}_${title.trim().toLowerCase().replaceAll(/\s+/g, '_')}.md`;
+  const fileName = `${date.replace(/-/g, '_')}_${title.trim().toLowerCase().replace(/\s+/g, '_')}.md`;
   fs.writeFile(`${ENTRIES_DIR}/${category}/${fileName}`, newEntryContent({ category, date, title }), 'utf8', _ => {});
   console.log(chalk.black.bgCyan('New entry file has been created!!!'));
 }
