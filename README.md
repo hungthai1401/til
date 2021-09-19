@@ -27,6 +27,7 @@ This is inspired by https://github.com/narze/til
 
 - [Build CLI with NodeJs](./entries/Javascript/2021_09_02_build_cli_with_nodejs.md) - 2021-09-02
 - [Get all directories within directory with NodeJs](./entries/Javascript/2021_09_03_get_all_directories_within_directory_with_nodejs.md) - 2021-09-03
+- [Load Third-Party scripts dynamically in Javascript](./entries/Javascript/2021_09_19_load_third-party_scripts_dynamically_in_javascript.md) - 2021-09-19
 
 ### Linux
 
