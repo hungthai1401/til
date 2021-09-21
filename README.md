@@ -45,6 +45,10 @@ This is inspired by https://github.com/narze/til
 - [Destroy all sessions in Laravel](./entries/PHP/2021_09_11_destroy_all_sessions_in_laravel.md) - 2021-09-11
 - [Get the language code from a country code in PHP](./entries/PHP/2021_09_12_get_the_language_code_from_a_country_code_in_php.md) - 2021-09-12
 
+### Regular Expression
+
+- [Match whitespaced but not newlines](./entries/Regular Expression/2021_09_21_match_whitespaced_but_not_newlines.md) - 2021-09-21
+
 ## CLI Usage
 
 - `yarn install`
