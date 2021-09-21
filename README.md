@@ -47,7 +47,7 @@ This is inspired by https://github.com/narze/til
 
 ### Regular Expression
 
-- [Match whitespaced but not newlines](./entries/Regular Expression/2021_09_21_match_whitespaced_but_not_newlines.md) - 2021-09-21
+- [Match whitespaced but not newlines](./entries/Regular%20Expression/2021_09_21_match_whitespaced_but_not_newlines.md) - 2021-09-21
 
 ## CLI Usage
 
