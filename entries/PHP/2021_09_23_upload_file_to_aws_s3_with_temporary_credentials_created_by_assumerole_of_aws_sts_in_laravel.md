@@ -1,5 +1,5 @@
 ---
-title: Laravel upload file to AWS s3 with temporary credentials created by AssumeRole in AWS STS
+title: Upload file to AWS s3 with temporary credentials created by AssumeRole of AWS STS in Laravel
 category: PHP
 date: 2021-09-23
 ---
