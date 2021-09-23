@@ -49,7 +49,7 @@ This is inspired by https://github.com/narze/til
 ### Regular Expression
 
 - [Match whitespaced but not newlines](./entries/Regular%20Expression/2021_09_21_match_whitespaced_but_not_newlines.md) - 2021-09-21
-- [Match Vietnamese characters](./entries/Regular%20Expression/2021_09_23_match_vietnamese_characters.md) - 2021-09-23
+- [Match special countries letters](./entries/Regular%20Expression/2021_09_23_match_special_country_letters.md) - 2021-09-23
 
 ## CLI Usage
 
