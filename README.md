@@ -44,7 +44,7 @@ This is inspired by https://github.com/narze/til
 - [Laravel artisan everywhere](./entries/PHP/2021_09_05_laravel_artisan_everywhere.md) - 2021-09-05
 - [Destroy all sessions in Laravel](./entries/PHP/2021_09_11_destroy_all_sessions_in_laravel.md) - 2021-09-11
 - [Get the language code from a country code in PHP](./entries/PHP/2021_09_12_get_the_language_code_from_a_country_code_in_php.md) - 2021-09-12
-- [Laravel upload file to AWS s3 with temporary credentials created by AssumeRole in AWS STS](./entries/PHP/2021_09_23_laravel_upload_file_to_aws_s3_with_temporary_credentials_created_by_assumerole_in_aws_sts.md) - 2021-09-23
+- [Upload file to AWS s3 with temporary credentials created by AssumeRole of AWS STS in Laravel](./entries/PHP/2021_09_23_upload_file_to_aws_s3_with_temporary_credentials_created_by_assumerole_of_aws_sts_in_laravel.md) - 2021-09-23
 
 ### Regular Expression
 
