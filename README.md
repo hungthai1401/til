@@ -46,6 +46,7 @@ This is inspired by https://github.com/narze/til
 - [Get the language code from a country code in PHP](./entries/PHP/2021_09_12_get_the_language_code_from_a_country_code_in_php.md) - 2021-09-12
 - [Upload file to AWS s3 with temporary credentials created by AssumeRole of AWS STS in Laravel](./entries/PHP/2021_09_23_upload_file_to_aws_s3_with_temporary_credentials_created_by_assumerole_of_aws_sts_in_laravel.md) - 2021-09-23
 - [Relationship with composite keys in Laravel](./entries/PHP/2021_10_27_relationship_with_composite_keys_in_laravel.md) - 2021-10-27
+- [Enable the logger with Elasticsearch PHP Client](./entries/PHP/2021_11_11_enable_the_logger_with_elasticsearch_php_client.md) - 2021-11-11
 
 ### Regular Expression
 
