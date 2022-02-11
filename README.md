@@ -4,6 +4,10 @@ This is inspired by https://github.com/narze/til
 
 ## All Entries
 
+### AWS
+
+- [Allow public read access to an S3 Bucket](./entries/AWS/2022_02_11_allow_public_read_access_to_an_s3_bucket.md) - 2022-02-11
+
 ### Docker
 
 - [Run cronjob along with php-fpm](./entries/Docker/2021_09_08_run_cronjob_along_with_php-fpm.md) - 2021-09-08
