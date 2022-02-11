@@ -48,6 +48,7 @@ This is inspired by https://github.com/narze/til
 - [Relationship with composite keys in Laravel](./entries/PHP/2021_10_27_relationship_with_composite_keys_in_laravel.md) - 2021-10-27
 - [Enable the logger with Elasticsearch PHP Client](./entries/PHP/2021_11_11_enable_the_logger_with_elasticsearch_php_client.md) - 2021-11-11
 - [The attributes are not casted correctly when using SQL Server in Laravel](./entries/PHP/2021_12_21_the_attributes_are_not_casted_correctly_when_using_sql_server_in_laravel.md) - 2021-12-21
+- [Use form request manually in Laravel](./entries/PHP/2022_02_11_use_form_request_manually_in_laravel.md) - 2022-02-11
 
 ### Regular Expression
 
