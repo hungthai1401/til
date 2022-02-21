@@ -38,6 +38,7 @@ This is inspired by https://github.com/narze/til
 
 - [Find and kill process locking port](./entries/Linux/2021_09_04_find_and_kill_process_locking_port.md) - 2021-09-04
 - [Count all files inside a folder, its subfolders and all](./entries/Linux/2021_09_18_count_all_files_inside_a_folder,_its_subfolders_and_all.md) - 2021-09-18
+- [Copy a file to clipboard on macOS](./entries/Linux/2022_02_21_copy_a_file_to_clipboard_on_macos.md) - 2022-02-21
 
 ### PHP
 
