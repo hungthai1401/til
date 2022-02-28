@@ -55,6 +55,7 @@ This is inspired by https://github.com/narze/til
 - [Enable the logger with Elasticsearch PHP Client](./entries/PHP/2021_11_11_enable_the_logger_with_elasticsearch_php_client.md) - 2021-11-11
 - [The attributes are not casted correctly when using SQL Server in Laravel](./entries/PHP/2021_12_21_the_attributes_are_not_casted_correctly_when_using_sql_server_in_laravel.md) - 2021-12-21
 - [Use form request manually in Laravel](./entries/PHP/2022_02_11_use_form_request_manually_in_laravel.md) - 2022-02-11
+- [Determine whether a listener should be queued in Laravel](./entries/PHP/2022_02_28_determine_whether_a_listener_should_be_queued_in_laravel.md) - 2022-02-28
 - [Handling a CLI command’s exit signals in Laravel](./entries/PHP/2022_02_28_handling_a_cli_command’s_exit_signals_in_laravel.md) - 2022-02-28
 
 ### Regular Expression
