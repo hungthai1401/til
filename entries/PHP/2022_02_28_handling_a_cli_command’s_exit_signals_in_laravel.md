@@ -53,6 +53,10 @@ class MyWorker extends Command
 
         // When set to false, worker will finish current item and stop.
         $this->run = false;
+
+        // send SIGUSR1 to current process id
+        // posix_* functions require the posix extension
+        posix_kill(posix_getpid(), SIGUSR1);
     }
 }
 ```
