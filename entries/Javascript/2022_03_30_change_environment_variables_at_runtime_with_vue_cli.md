@@ -29,7 +29,7 @@ echo "Starting Nginx"
 nginx -g 'daemon off;'
 ```
 
-This will change any instances of $APP_API_URL and $APP_PERSIST_NAME from the built code with the current environment variable passed to the kubernetes pod/docker run, this shell actually starts an nginx to serve the files, but I can change it to anything I want.
+This will change any instances of `$VUE_APP_API_URL` and `$VUE_APP_PERSIST_NAME` from the built code with the current environment variable passed to the kubernetes pod/docker run, this shell actually starts an nginx to serve the files, but I can change it to anything I want.
 
 In my app, I also use a helper to reference all variables from one place.
 
