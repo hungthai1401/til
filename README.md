@@ -34,6 +34,7 @@ This is inspired by https://github.com/narze/til
 - [Get all directories within directory with NodeJs](./entries/Javascript/2021_09_03_get_all_directories_within_directory_with_nodejs.md) - 2021-09-03
 - [Load Third-Party scripts dynamically in Javascript](./entries/Javascript/2021_09_19_load_third-party_scripts_dynamically_in_javascript.md) - 2021-09-19
 - [Nginx configuration for Next.js app](./entries/Javascript/2022_03_09_nginx_configuration_for_next.js_app.md) - 2022-03-09
+- [Change environment variables at runtime with VueCli](./entries/Javascript/2022_03_30_change_environment_variables_at_runtime_with_vuecli.md) - 2022-03-30
 
 ### Linux
 
