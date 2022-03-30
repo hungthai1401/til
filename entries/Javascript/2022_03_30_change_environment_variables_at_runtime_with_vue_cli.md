@@ -1,10 +1,10 @@
 ---
-title: Change environment variables at runtime with VueCli
+title: Change environment variables at runtime with Vue CLI
 category: Javascript
 date: 2022-03-30
 ---
 
-In VueCli, The environment variables get referenced and baked into the built artifacts at build time (`npm build`), not run time.
+In Vue CLI, The environment variables get referenced and baked into the built artifacts at build time (`npm build`), not run time.
 
 I only use `.env` files during development, when deploying i use k8s ConfigMap to map these values directly to env vars, they can use only at run time so I need a custom entrypoint shell script in Dockerfile:
 
@@ -22,7 +22,7 @@ do
     cp $file $file.tmpl.js
   fi
 
-  envsubst '$APP_API_URL,$APP_PERSIST_NAME' < $file.tmpl.js > $file
+  envsubst '$VUE_APP_API_URL,$VUE_APP_PERSIST_NAME' < $file.tmpl.js > $file
 done
 
 echo "Starting Nginx"
@@ -37,8 +37,8 @@ In my app, I also use a helper to reference all variables from one place.
 export default class Configuration {
   static get CONFIG() {
     return {
-      APP_API_URL: "$APP_API_URL",
-      APP_PERSIST_NAME: "$APP_PERSIST_NAME",
+      APP_API_URL: "$VUE_APP_API_URL",
+      APP_PERSIST_NAME: "$VUE_APP_PERSIST_NAME",
     };
   }
 
