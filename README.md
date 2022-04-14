@@ -35,6 +35,7 @@ This is inspired by https://github.com/narze/til
 - [Load Third-Party scripts dynamically in Javascript](./entries/Javascript/2021_09_19_load_third-party_scripts_dynamically_in_javascript.md) - 2021-09-19
 - [Nginx configuration for Next.js app](./entries/Javascript/2022_03_09_nginx_configuration_for_next.js_app.md) - 2022-03-09
 - [Change environment variables at runtime with Vue CLI](./entries/Javascript/2022_03_30_change_environment_variables_at_runtime_with_vue_cli.md) - 2022-03-30
+- [Deploy Next.js app with minimize downtime](./entries/Javascript/2022_04_14_deploy_next.js_app_with_minimize_downtime.md) - 2022-04-14
 
 ### Linux
 
