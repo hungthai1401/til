@@ -1,6 +1,6 @@
 ---
 title: Nginx configuration for Next.js app
-category: Javascript
+category: Web server
 date: 2022-03-09
 ---
 
