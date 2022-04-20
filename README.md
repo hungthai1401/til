@@ -66,6 +66,10 @@ This is inspired by https://github.com/narze/til
 - [Match whitespaced but not newlines](./entries/Regular%20Expression/2021_09_21_match_whitespaced_but_not_newlines.md) - 2021-09-21
 - [Match special countries letters](./entries/Regular%20Expression/2021_09_23_match_special_country_letters.md) - 2021-09-23
 
+### Web server
+
+- [Using nginx as an API gateway](./entries/Web%20server/2022_04_20_using_nginx_as_an_api_gateway.md) - 2022-04-20
+
 ## CLI Usage
 
 - `yarn install`
