@@ -64,6 +64,7 @@ This is inspired by https://github.com/narze/til
 - [Determine whether a listener should be queued in Laravel](./entries/PHP/2022_02_28_determine_whether_a_listener_should_be_queued_in_laravel.md) - 2022-02-28
 - [Handling a CLI command’s exit signals in Laravel](./entries/PHP/2022_02_28_handling_a_cli_command’s_exit_signals_in_laravel.md) - 2022-02-28
 - [Deployer with multi PHP version](./entries/PHP/2022_07_17_deployer_with_multi_php_version.md) - 2022-07-17
+- [Solve PHPRedis with 'read error on connection' exception](./entries/PHP/2022_07_29_solve_phpredis_with_'read_error_on_connection'_exception.md) - 2022-07-29
 
 ### Regular Expression
 
