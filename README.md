@@ -76,6 +76,7 @@ This is inspired by https://github.com/narze/til
 - [Nginx configuration for Next.js app](./entries/Web%20server/2022_03_09_nginx_configuration_for_next.js_app.md) - 2022-03-09
 - [Using nginx as an API gateway](./entries/Web%20server/2022_04_20_using_nginx_as_an_api_gateway.md) - 2022-04-20
 - [HTTP Basic Authentication in Nginx](./entries/Web%20server/2022_04_29_http_basic_authentication_in_nginx.md) - 2022-04-29
+- [Remove the path with a nginx proxy_pass](./entries/Web%20server/2022_09_14_remove_the_path_with_a_nginx_proxy_pass.md) - 2022-09-14
 
 ## CLI Usage
 
