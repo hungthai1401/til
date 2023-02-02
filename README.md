@@ -47,6 +47,10 @@ This is inspired by https://github.com/narze/til
 - [Copy a file to clipboard on macOS](./entries/Linux/2022_02_21_copy_a_file_to_clipboard_on_macos.md) - 2022-02-21
 - [File permissions in Linux](./entries/Linux/2023_01_31_file_permissions_in_linux.md) - 2023-01-31
 
+### Others
+
+- [Chaining requests in Postman](./entries/Others/2023_02_02_chaining_requests_in_postman.md) - 2023-02-02
+
 ### PHP
 
 - [Detect N+1 query in Laravel](./entries/PHP/2020_06_03_detect_n+1_query_in_laravel.md) - 2020-06-03
