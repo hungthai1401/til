@@ -70,6 +70,7 @@ This is inspired by https://github.com/narze/til
 - [Handling a CLI command’s exit signals in Laravel](./entries/PHP/2022_02_28_handling_a_cli_command’s_exit_signals_in_laravel.md) - 2022-02-28
 - [Deployer with multi PHP version](./entries/PHP/2022_07_17_deployer_with_multi_php_version.md) - 2022-07-17
 - [Solve PHPRedis with 'read error on connection' exception](./entries/PHP/2022_07_29_solve_phpredis_with_'read_error_on_connection'_exception.md) - 2022-07-29
+- [Solve Content Too Large when using Laravel Octane with OpenSwoole](./entries/PHP/2023_02_27_solve_content_too_large_when_using_laravel_octane_with_openswoole.md) - 2023-02-27
 
 ### Regular Expression
 
