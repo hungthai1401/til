@@ -8,6 +8,10 @@ This is inspired by https://github.com/narze/til
 
 - [Allow public read access to an S3 Bucket](./entries/AWS/2022_02_11_allow_public_read_access_to_an_s3_bucket.md) - 2022-02-11
 
+### Database
+
+- [Case-sensitive in FIND_IN_SET on MySQL](./entries/Database/2023_04_09_case-sensitive_in_find_in_set_on_mysql.md) - 2023-04-09
+
 ### Devops
 
 - [Setup Graylog](./entries/Devops/2022_06_15_setup_graylog.md) - 2022-06-15
